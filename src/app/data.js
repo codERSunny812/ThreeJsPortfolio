@@ -99,32 +99,32 @@ export const projectsData = [
 
 export const BtnList = [
   { label: "Home", link: "/", icon: "home", newTab: false },
-  { label: "About", link: "/about", icon: "about", newTab:true },
-  { label: "Projects", link: "/projects", icon: "projects", newTab: true },
-  { label: "Contact", link: "/contact", icon: "contact", newTab: true },
+  { label: "About", link: "/about", icon: "about", newTab:false },
+  { label: "Projects", link: "/projects", icon: "projects", newTab: false },
+  { label: "Contact", link: "/contact", icon: "contact", newTab: false },
   {
     label: "Github",
     link: "https://github.com/codERSunny812",
     icon: "github",
-    newTab: true,
+    newTab:false,
   },
   {
     label: "LinkedIn",
     link: "https://www.linkedin.com/in/sushil-pandey-8ab638209/",
     icon: "linkedin",
-    newTab: true,
+    newTab: false,
   },
   {
     label: "X",
     link: "https://x.com/codeerasunny",
     icon: "twitter",
-    newTab: true,
+    newTab: false,
   },
   {
     label: "Resume",
     link: "/SushilPandey__Resume.pdf",
     icon: "resume",
-    newTab: true,
+    newTab: false,
   },
 ];
 
