@@ -1,7 +1,7 @@
 
 "use client";
 import React, { useRef } from "react";
-import { useGLTF } from "@react-three/drei";
+import { useGLTF , OrbitControls } from "@react-three/drei";
 import { useFrame } from "@react-three/fiber";
 
 const Wizard = React.memo(function Wizard(props) {
@@ -18,6 +18,9 @@ const Wizard = React.memo(function Wizard(props) {
   });
 
   return (
+    <>
+      {/* Add OrbitControls */}
+      <OrbitControls enableZoom={true} enablePan={true} enableRotate={true} />
     <group
       {...props}
       dispose={null}
@@ -125,6 +128,7 @@ const Wizard = React.memo(function Wizard(props) {
         scale={0.832}
       />
     </group>
+    </>
   );
 });
 

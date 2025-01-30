@@ -1,7 +1,8 @@
+"use client"
 import Image from "next/image";
 import bg from "../../public/background/hogwarts.png";
 import RenderModel from "@/components/RenderModel";
-import Harry from "@/components/models/Harry";
+// import Harry from "@/components/models/Harry";
 import Navigation from "@/components/navigation";
 
 import dynamic from "next/dynamic";
@@ -27,7 +28,7 @@ export default function Home() {
       <div className="w-full h-screen z-10">
         <Navigation />
         <RenderModel>
-          <Harry />
+           <Wizard/>
         </RenderModel>
       </div>
     </main>
